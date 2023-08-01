@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=Q, initial-scale=1.0">
+    <title>Query Form</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    
+  <div class="container">
+    
+
+        <form action="" id="form1">
+            <h3>CREATE ACCOUNT</h3>
+            <input type="text"  id ="mail" placeholder="Email">
+            <input type="password" placeholder="Password">
+            <input type="password" placeholder="Confirm Password">
+            <div class="btn-box">
+                <button type="button" id="next1">NEXT</button>
+            </div>
+        </form>
+        
+        <form action="" id="form2">
+            <h3>SOCIAL LINKS</h3>
+            <input type="text" placeholder="Instagram">
+            <input type="text" placeholder="Linkdin">
+            <input type="text" placeholder="GitHub">
+            <div class="btn-box">
+                <button type="button" id="back1">BACK</button>
+                <button type="button" id="next2">NEXT</button>
+            </div>
+        </form>
+
+        <form action="" id="form3" >
+            <h3>PERSONAL INFO</h3>
+            <input type="text" placeholder="First Name" required>
+            <input type="text" placeholder="Last Name" required>
+            <input type="text" placeholder="Whatsapp Number">
+            <div class="btn-box">
+                <button type="button" id="back2">BACK</button>
+                <button type="submit" id="submit">SUMBMIT</button>
+            </div>
+        </form>
+
+             <div class="step-row">
+                <div id="progress"></div>
+                <div class="step-col"><small>step 1</small></div>
+                <div class="step-col"><small>step 2</small></div>
+                <div class="step-col"><small>step 3</small></div>
+            </div>
+    
+
+  </div>
+
+    <script src="script.js"></script>
+    <script src="connection.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+</body>
+</html>
